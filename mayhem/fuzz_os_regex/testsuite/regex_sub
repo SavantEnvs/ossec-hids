@@ -1,0 +1,2 @@
+^sshd\[\d+\]: Accepted \S+ for (\S+) from (\S+) port 
+sshd[21405]: Accepted password for root from 192.1.1.1 port 6023
