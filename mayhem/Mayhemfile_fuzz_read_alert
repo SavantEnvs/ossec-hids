@@ -1,0 +1,9 @@
+project: savantenvs/ossec-hids
+target: fuzz_read_alert-mined-7158255
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_read_alert-mined-7158255/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_read_alert
+    libfuzzer: true
+    timeout: 5

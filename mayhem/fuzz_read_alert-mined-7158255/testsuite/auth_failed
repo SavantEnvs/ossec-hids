@@ -1,0 +1,7 @@
+** Alert 1609459201.1: mail  - ossec,authentication_failed,
+2021 Jan 01 00:00:01 (agent1) 10.0.0.2->/var/log/auth.log
+Rule: 5716 (level 5) -> 'sshd: authentication failed.'
+Src IP: 1.2.3.4
+User: root
+Jan  1 00:00:01 host sshd[1]: Failed password for root from 1.2.3.4 port 22 ssh2
+

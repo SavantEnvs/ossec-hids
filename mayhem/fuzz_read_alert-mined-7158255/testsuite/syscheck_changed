@@ -1,0 +1,8 @@
+** Alert 1609459200.123456: - syscheck,
+2021 Jan 01 00:00:00 host->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+Integrity checksum changed for: '/etc/passwd'
+Size changed from '100' to '120'
+Old md5sum was: 'd41d8cd98f00b204e9800998ecf8427e'
+New md5sum is : '900150983cd24fb0d6963f7d28e17f72'
+
